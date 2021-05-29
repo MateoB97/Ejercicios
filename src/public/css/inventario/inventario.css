@@ -1,0 +1,29 @@
+nav.navbar{
+    background-color: rgb(31, 158, 151);
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 2%;
+    overflow-y: auto;
+    border-radius: 30px;
+    -webkit-box-shadow: 4px 7px 63px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 63px 2px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 63px 2px rgba(0,0,0,0.75);
+}
+.col{
+    width: 30%;
+    height: 35%;
+}
+.row{
+    margin: 1.5%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1.5px solid #042656;
+}
+.form-select{
+    margin: 1.5%;
+    padding: 1%;
+    border-radius: 10px;;
+}

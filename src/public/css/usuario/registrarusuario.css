@@ -1,0 +1,68 @@
+nav.navbar{
+    background-color: rgb(31, 158, 151);
+}
+h3{
+    margin: 4%;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 140vh;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.forCotn{
+    display: flex;
+    height: 50%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(222, 253, 237);
+    border-radius: 30px;
+    -webkit-box-shadow: 4px 7px 63px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 63px 2px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 63px 2px rgba(0,0,0,0.75);
+}
+.filas{
+    width: 90%;
+    height: 60%;
+    position: relative; top: 0.5%;
+}
+.CI{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; top: 1.5%;
+    padding: 4%;
+}
+.CD{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid #042656;
+    position: relative; top: 1.5%;
+    padding: 4%;
+}
+#btn2{
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 4%;
+}
+label{
+    margin: 1.5%;
+}
+input{
+    margin: 1.5%;
+}
+select{
+    margin: 1.5%;
+}
+textarea{
+    margin: 1.5%;
+}
+.btn-primary{
+    margin-top: 4%;
+}
