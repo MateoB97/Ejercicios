@@ -3,70 +3,39 @@ const bcryptjs = require('bcryptjs');
 const connection = require('../../config/db');
 
 module.exports = app => {
-    app.get('/', (req,res) => {
+   /* app.get('/', (req,res) => {
         res.render('../views/login.ejs');
     })
 
-    app.get('/login', (req,res) => {
+    app.get('/', (req,res) => {
         res.render('../views/main.ejs');
-    })
+    })*/
 
-    app.get('/register', (req,res) => {
+    app.get('/', (req,res) => {
         res.render('../views/registrarinventario.ejs');
     })
 
-    app.get('/register', (req,res) =>{
+    app.get('/', (req,res) =>{
         res.render('../views/registrarpedido.ejs');
     })
 
-    app.get('/register', (req,res) => {
+    app.get('/', (req,res) => {
         res.render('../views/registrarusuario.ejs');
     })
-
-    //Solicitudes POST en el registro
-    app.post("/register", async (req, res) => {}
-
-    /////----Registrar usuario------//////
-
-    function recibirInfo() {
-
-    let nombre = document.getElementById("Nombre").value;
-    let apellidos = document.getElementById("Apellido").value;
-    let direccion = document.getElementById("Direccion").value;
-    let CdPostal = document.getElementById("CdPostal").value;
-    let correo = document.getElementById("Correo").value;
-    let cedula = document.getElementById("Cedula").value;
-    let celular = document.getElementById("Celular").value;
-    let situacion = document.getElementById("Situacion").value;
-    let pais = document.getElementById("Pais").value;
-    let departamento = document.getElementById("Departamento").value;
-    let ciudad = document.getElementById("Ciudad").value;
-    let telFijo = document.getElementById("TelFijo").value;
-    let DiaN = document.getElementById("DiaN").value;
-    let MesN = document.getElementById("MesN").value;
-    let AñoN = document.getElementById("AñoN").value;
-    let Cargo = document.getElementById("Cargo").value;
-    let Horario = document.getElementById("Horario").value;
-    let anotaciones = document.getElementById("Anotaciones").value;
-    let btn2 = document.getElementById("btn2").value;
-
-    console.log(nombre);
-
-    validarDatos(nombre,apellidos,direccion,CdPostal,correo,cedula,celular,situacion,pais,departamento,ciudad,telFijo,DiaN,MesN,AñoN,Cargo,Horario,anotaciones,btn2);
 }
+    //Solicitudes POST en el registro
+   /* app.post("/registrarinventario", async (req, res) => {
+        
+        /////----Registrar usuario------//////
+
+
+    }
+
+
+   const  validarDatos = {nombre,apellidos,direccion,CdPostal,correo,cedula,celular,situacion,pais,departamento,ciudad,telFijo,DiaN,MesN,AñoN,Cargo,Horario,anotaciones,btn2};
 
 recibirInfo();
-
-
-function validarDatos(nombre,apellidos,direccion,CdPostal,correo,cedula,celular,situacion,pais,departamento,ciudad,telFijo,DiaN,MesN,AñoN,Cargo,Horario,anotaciones,btn2) {
-
-    for (let i = 0; i < nombre.length; i++) {
-        if (nombre[i]) {
-        
-        }
-    }
-  
-}
+*/
 
 /////--------Login------/////////////////
  /*   
